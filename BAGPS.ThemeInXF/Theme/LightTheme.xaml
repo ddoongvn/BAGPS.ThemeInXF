@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="BAGPS.ThemeInXF.Theme.LightTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <Color x:Key="BackgroundPageColor">Wheat</Color>
+    <Color x:Key="BackgroundFieldColor">White</Color>
+    <Color x:Key="PlaceHolderFieldColor">#007AAE</Color>
+    <Color x:Key="TextFieldColor">Black</Color>
+    <Color x:Key="BackgroundBtnColor">#007AAE</Color>
+    <Color x:Key="TextBtnColor">White</Color>
+    <Color x:Key="TextRadioColor">Black</Color>
+    <Color x:Key="BorderFieldColor">#000000</Color>
+    <x:Double x:Key="BackgroundOpacity">0.7</x:Double>
+
+
+    <Style x:Key="BtnSubmitStyle" TargetType="Frame">
+        <Setter Property="Padding" Value="15" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundBtnColor}" />
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        <Setter Property="WidthRequest" Value="150" />
+        <Setter Property="CornerRadius" Value="30" />
+        <Setter Property="Opacity" Value="1" />
+    </Style>
+
+    <Style x:Key="FrameEnTryStyle" TargetType="Frame">
+        <Setter Property="CornerRadius" Value="30" />
+        <Setter Property="Padding" Value="15,5" />
+        <Setter Property="Opacity" Value="0.8" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundFieldColor}" />
+        <Setter Property="BorderColor" Value="{DynamicResource BorderFieldColor}" />
+    </Style>
+
+    <Style x:Key="InputFieldStyle" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="PlaceholderColor" Value="{DynamicResource PlaceHolderFieldColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource TextFieldColor}" />
+
+    </Style>
+
+    <Style x:Key="logo" TargetType="Image">
+        <Setter Property="Source" Value="logo.png" />
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+        <Setter Property="HeightRequest" Value="200" />
+        <Setter Property="WidthRequest" Value="200" />
+    </Style>
+
+    <Style x:Key="SelectThemeRdBtn" TargetType="RadioButton">
+        <Setter Property="TextColor" Value="{DynamicResource TextRadioColor}" />
+    </Style>
+</ResourceDictionary>
