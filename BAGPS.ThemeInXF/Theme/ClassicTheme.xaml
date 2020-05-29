@@ -9,8 +9,8 @@
     <Color x:Key="BackgroundFieldColor">Wheat</Color>
     <Color x:Key="PlaceHolderFieldColor">Teal</Color>
     <Color x:Key="TextFieldColor">Black</Color>
-    <Color x:Key="BackgroundBtnColor">#886D20</Color>
-    <Color x:Key="TextBtnColor">White</Color>
+    <Color x:Key="BackgroundBtnColor">White</Color>
+    <Color x:Key="TextBtnColor">Black</Color>
     <Color x:Key="TextRadioColor">Black</Color>
     <x:Double x:Key="BackgroundOpacity">1</x:Double>
     <Color x:Key="BorderFieldColor">Black</Color>
